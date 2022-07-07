@@ -90,9 +90,11 @@ section {
   min-height: 670px;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(360deg,
+  background-image: linear-gradient(
+      360deg,
       #121212 0%,
-      rgba(18, 18, 18, 0) 100%),
+      rgba(18, 18, 18, 0) 100%
+    ),
     url("./images/banner.png");
 }
 
@@ -215,12 +217,18 @@ section {
   background: #fff4d6;
 }
 
+.donate-reasons .card .card-icon {
+  margin-top: 65px;
+  margin-bottom: 26px;
+}
+
 .donate-reasons .card-text h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   color: #121212;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
 }
 
 .donate-reasons .card-text p {
@@ -312,7 +320,8 @@ section {
 
 /* Updates */
 
-.updates {}
+.updates {
+}
 
 .updates-main {
   max-width: 810px;
@@ -323,24 +332,25 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FFF4D6;
+  background: #fff4d6;
 }
 
-.updates-form form {}
+.updates-form form {
+}
 
 .updates-form form input::placeholder {
-  color: #AA9F9F;
+  color: #aa9f9f;
   font-weight: 600;
   opacity: 1;
 }
 
 .updates-form form input:-ms-input-placeholder {
-  color: #AA9F9F;
+  color: #aa9f9f;
   font-weight: 600;
 }
 
 .updates-form form input::-ms-input-placeholder {
-  color: #AA9F9F;
+  color: #aa9f9f;
   font-weight: 600;
 }
 
@@ -351,7 +361,7 @@ section {
 .updates-form form input {
   width: 275px;
   height: 46px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   border-radius: 5px 0px 0px 5px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -365,7 +375,7 @@ section {
 .updates-form form button {
   width: 157px;
   height: 46px;
-  background: #FF5959;
+  background: #ff5959;
   border-radius: 0px 5px 5px 0px;
   border: 0;
   color: #fff;
@@ -375,12 +385,11 @@ section {
 }
 
 footer {
-  background: #0B0D17;
+  background: #0b0d17;
   padding: 50px;
 }
 
 footer p {
   font-size: 14px;
   color: #707070;
-
 }
